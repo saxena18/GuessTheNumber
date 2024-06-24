@@ -72,11 +72,14 @@ html {
     box-sizing: border-box;
     text-align: center;
     width: 450px;
-    height: 600px;
-    background-color: #474747;
+    height: 620px;
     color: #fff;
     font-size: 16px;
     margin-top: 50px;
+    border-radius: 44px;
+    background-color: #474747;
+    box-shadow:  22px 22px 44px #474747,
+             -22px -22px 44px #474747;
   }
   #wrapper h1{
       padding-block: 20px;
@@ -85,7 +88,6 @@ html {
   
   h1 {
     background-color: #161616;
-  
     color: #fff;
     text-align: center;
   }
@@ -95,4 +97,62 @@ html {
     text-align: center;
   }
   
+  #newGame{
+    border: 2px solid white;
+    width: 120px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-device-width: 480px)
+  {
+    html, body{
+      padding: 0%;
+      margin: 0%;
+    }
+    
+    #wrapper {
+      box-sizing: border-box;
+      text-align: center;
+      margin-left: 30px;
+      width: 300px;
+      height: 730px;
+      background-color: #474747;
+      box-shadow:  22px 22px 44px #474747,
+             -22px -22px 44px #474747;
+      color: #fff;
+      font-size: 10px;
+      margin: none;
+    }
+
+    #newGame{
+      border: 2px solid white;
+      width: 50vw;
+      font-size: 20px;
+    }
+    #guess {
+      font-size: 30px;
+    }
+     #guessField {
+    color: #000;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 25px;
+  
+    /* margin-left: 50px; */
+    border: 5px solid #6c6d6d;
+    text-align: center;
+  }
+  #newGame{
+    border: 2px solid white;
+    width: 120px;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+    cursor: pointer;
+  } 
   
